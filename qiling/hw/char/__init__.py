@@ -9,3 +9,4 @@ from .gd32vf1xx_usart import GD32VF1xxUsart
 from .sam3xa_uotghs import SAM3xaUotghs
 from .sam3xa_uart import SAM3xaUart
 from .mk64f12_uart import MK64F12Uart
+from .ch57x_uart import CH57x_uart

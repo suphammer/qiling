@@ -20,3 +20,4 @@ from .mk64f12_sim import MK64F12Sim
 from .mk64f12_smc import MK64F12Smc
 from .mk64f12_mcg import MK64F12Mcg
 from .mk64f12_wdog import MK64F12Wdog
+from .ch57x_osc32 import CH57xOsc32
