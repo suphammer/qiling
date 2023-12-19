@@ -16,6 +16,21 @@ ch579 = {
         "size": 0x00010000,
         "type": "mmio"
     },
+    "SYSTICK": {
+        "base": 0xe000e010,
+        "struct": "CortexM3SysTick",
+        "type": "core"
+    },
+    "NVIC": {
+        "base": 0xe000e100,
+        "struct": "CortexM3Nvic",
+        "type": "core"
+    },
+    "SCB": {
+        "base": 0xe000ed00,
+        "struct": "CortexM3Scb",
+        "type": "core"
+    },
 	"OSC32": {
 		"base": 0x4000102C,
 		"struct": "CH57xOsc32",
